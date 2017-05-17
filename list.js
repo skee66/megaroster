@@ -6,7 +6,7 @@
     li.innerHTML = `${name}: ${value} `
     //adding button
     const button = document.createElement('button')
-    button.textContent = 'Delete'
+    button.textContent = 'Delete '
     button.setAttribute('type', 'delete')
     li.appendChild(button)
     button.addEventListener('click', () => {
