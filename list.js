@@ -43,6 +43,8 @@
     const list = renderList(person)
 
     details.appendChild(list)
+
+    form.reset();
   }
 
   personForm.addEventListener('submit', handleSubmit)
